@@ -1,0 +1,32 @@
+.carousel-indicators{
+    position: relative;
+}
+.item{
+    max-width: 800px;
+    margin: auto;
+} 
+
+.item img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100%;
+}
+.star{
+    padding-bottom: .7rem;
+}
+
+
+.carousel-indicators [data-bs-target]{
+    background: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+.bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+    
+    color: rgb(243, 215, 6);
+    font-size: 2rem;
+}
